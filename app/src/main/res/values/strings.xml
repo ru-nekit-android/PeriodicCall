@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PeriodicCall</string>
+    <string name="stop_label">Stop</string>
+</resources>
