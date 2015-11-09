@@ -9,11 +9,33 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="ru.nekit.android.periodiccall.MainActivity">
 
-    <Button
-        android:id="@+id/stop_button"
+
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
         android:layout_centerVertical="true"
-        android:text="@string/stop_label" />
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:id="@+id/stop_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stop_label" />
+
+        <Button
+            android:id="@+id/stop_button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stop_label2" />
+
+        <Button
+            android:id="@+id/stop_button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stop_label3" />
+
+    </LinearLayout>
+
+
 </RelativeLayout>
